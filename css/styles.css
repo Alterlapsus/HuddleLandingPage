@@ -25,11 +25,4 @@ body{
     font-family: var(--font-body);
 }
 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: var(--padding-container);
-}
 
