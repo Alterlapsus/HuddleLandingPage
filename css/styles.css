@@ -294,4 +294,25 @@ body{
         margin: 0;
         text-align: left;
     }
+    .question{
+        --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
+        --wave-bottom: url(../images/bg-footer-top-desktop.svg );
+        --padding-container: 12rem 0 13rem;
+    }
+    .footer{
+        --padding-container: 7rem 0;
+    }
+    .footer__container{
+        display: flex;
+    }
+    .footer__newsletter{
+        order: 1;
+        width: 50%;
+        max-width: 350px;
+        margin-left: auto;
+    }
+    .footer__content{
+        width: 50%;
+        max-width: 300px;
+    }
 }
