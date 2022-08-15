@@ -186,6 +186,9 @@ body{
     letter-spacing: 1px;
     margin-bottom: 1rem;
 }
+.footer__paragraph--newsletter{
+    margin: 1rem 0 0;
+}
 .footer__paragraph{
     margin: 1rem 0 3rem;
 }
@@ -214,4 +217,81 @@ body{
     border-radius: 4px;
     font-weight: 600;
     margin-left: auto;
+}
+.footer__contact{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 1em;
+    align-items: center;
+}
+.footer__contact--email{
+    margin: 1em 0 3em;
+}
+.footer__contact::after{
+    content: "Phone: +1-543-123-4567";
+}
+.footer__contact--email::after{
+    content: " example@huddle.com";
+}
+.footer__social{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 40px;
+    gap: 1em;
+}
+.footer__link{
+    text-decoration: none;
+}
+.footer__icon{
+    display: block;
+    width: 100%;
+}
+
+/* adaptando a escritorio */
+
+@media screen and (min-width: 768px) {
+    .hero{
+        --wave-bottom: url(../images/bg-section-top-desktop-1.svg);
+    }
+    .hero__main{
+        --padding-container: 8rem 0;
+    }
+    .hero__title{
+        font-size: 3rem;
+    }
+    .hero__paragraph{
+        width: 70%;
+    }
+    .hero__cta{
+        padding: 1em 2.2em;
+    }
+    .hero__numbers{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .hero__number{
+        font-size: 5rem;
+    }
+    /* section */
+    .section--white{
+        --wave-top: url(../images/bg-section-bottom-desktop-1.svg);
+        --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
+    }
+    .section__container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section__container--inverse{
+        flex-direction: row;
+    }
+    .section__picture{
+        width: 50%;
+    }
+    .section__texts{
+        width: 45%;
+        margin: 0;
+        text-align: left;
+    }
 }
