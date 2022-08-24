@@ -17,7 +17,7 @@ Tecnologías utilizadas:
 Descargar de archivos: 
 
 - git 
-- git clone https://github.com/Alterlapsus/FylodarkLandingPage.git
+- git clone https://github.com/Alterlapsus/HuddleLandingPage.git
 
 ---
 
